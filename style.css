@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body{
+    margin: 0;
+}
+h1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 48px;
+    margin: 0;
+}
+h2 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 44px;
+    margin: 0;
+}
+h4 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0E2F4B;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #0E2F4B;
+    margin: 0;
+}
+input{
+    font-size: 16px;
+    font-family:'Rubik', sans-serif;
+    padding-left: 2vw;
+    letter-spacing: 0.5px;
+    width: 35vw;
+    color: #6C757D;
+    font-weight: normal;
+    border-radius: 10px;
+    border: 1px solid #E8EBEE;
+}
+button {
+    background-color: #FDC13D;
+    color: #0E2F4B;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Rubik', sans-serif;
+    margin-left: 1vw;
+}
+header{
+    height: 9vh;
+}
+header img{
+    width: 12.92vw;
+    height: auto;
+    margin-left: 9.4vw;
+    margin-top: 2.4vh;
+}
+nav{
+    height: 5.86vh;
+    padding-left: 9.4vw;
+    display: flex;
+    align-items: center;
+}
+nav a{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 2.05vw;
+    color: #99A2AA;
+}
+.yellow-block{
+    height: 43.95vh;
+    background-color: #FEC524;
+}
+.text {
+    width: 30%;
+    height: 60%;
+    margin-left: 9.4vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.text h2{
+    margin-top: 5.3vh;
+    color: #FFF;
+}
+.services-block{
+    height: 78.125vh;
+    color: #0E2F4B;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F8F8F8;
+    position: relative;
+}
+.container{
+    width: 84.7vw;
+    height: 20.7vh;
+    margin-left: 9.4vw;
+    position: absolute;
+    top: -15.38vh;
+}
+.line-block{
+    display: flex;
+    justify-content: space-between;
+}
+.container input{
+    width: 40vw;
+    height: 7vh;
+    margin: 3vh 0 3vh 0;
+    color: #757575;
+}
+.container a{
+    width: 18.75vw;
+    height: 7.8vh;
+    background-color: #FFF;
+    color: #99A2AA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+span{
+    margin-left: 1.5vw;
+}
+.box1{
+    width: 25%;
+    height: 80%;
+    margin: 9vh 0 0 9.4vw;
+}
+.box1 p{
+    margin-top: 2vh;
+}
+.box2{
+    width: 50%;
+    height: 80%;
+    margin: 9vh 9.4vw 0 3vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box{
+    width: 45%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.box a{
+    margin-top: 1vw;
+}
+.export-block{
+    height: 64.45vh;
+    background-color: #042C4B;
+    display: flex;
+    align-items: center;
+}
+.card{
+    width: 50vw;
+    height: 40vh;
+    margin-left: 9.4vw;
+}
+.card h1{
+    color: white;
+    margin: 0;
+}
+.card p{
+    width: 24vw;
+    color: #99A2AA;
+    margin-top: 2vh;
+}
+.card button{
+    width: 21.18vw;
+    height: 7.8vh;
+    margin-top: 3vh;
+}
+.finance{
+    height: 89.9vh;
+    color: #0E2F4B;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.gum{
+    width: 81.25vw;
+    height: 21.5vh;
+    margin:0 9.4vw 0 9.4vw;
+    background-color: #FDC13D;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.item-flex{
+    display: flex;
+    margin-left: 9.4vw;
+}
+.item-flex>.box{
+    width: 15%;
+}
+.gum h4 {
+    margin: 0 7vw 0 5.2vw;
+}
+.gum p{
+    margin: 0 7vw 0 5.2vw;
+}
+.gum a{
+    font-size: 16px;
+    margin-left: 5.2vw;
+}
+.finance h1{
+    margin-left: 9.4vw;
+}
+.item-flex>.box{
+    margin-left: 2vw;
+}
+.index-block{
+    height: 62vh;
+    background-color: #0E2F4B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.index-block h1{
+    color: white;
+    margin-left: 9.4vw;
+}
+.index-block p{
+    color: #99A2AA;
+    margin:5vh 9.4vw 5vh 9.4vw;
+}
+.index-block form {
+    height: 7.81vh;
+    display: flex;
+    margin-left: 9.4vw;
+}
+.index-block>form button{
+    width: 17vw;
+    border-radius: 10px;
+}
