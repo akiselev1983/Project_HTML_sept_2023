@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <img src="img/site-ua-logo.svg.png" height="50" width="186"/>
+        <img src="img/site-ua-logo.svg.png" height="50" width="186" alt="Ukrposhta-logo"/>
     </header>
     <nav>
         <a href="#">Трекінг</a>
@@ -28,22 +28,24 @@
         </div>
     </div>
     <div class="services-block">
-        <form class="container">
-            <input type="number" placeholder="Введіть номер відправлення">
+        <div class="container">
+            <form>
+                <input type="number" placeholder="Введіть номер відправлення">
+            </form>
             <div class="line-block">
                 <a href="#">
-                    <img src="img/calc.png" height="31" width="31"/><span>Розрахувати</span>
+                    <img src="img/calc.png" height="31" width="31" alt="calculator"/><span>Розрахувати</span>
                 </a>
                 <a href="#">
-                    <img src="img/parc.png" height="31" width="31"/><span>Оформити</span>
+                    <img src="img/parc.png" height="31" width="31" alt="parc"/><span>Оформити</span>
                 </a>
                 <a href="#">
-                    <img src="img/circ.png" height="31" width="31"/><span>Знайти індекс</span>
+                    <img src="img/circ.png" height="31" width="31" alt="circle"/><span>Знайти індекс</span>
                 </a>
                 <a href="#">
-                    <img src="img/book.png" height="31" width="31"/><span>Передплатити</span></a>
+                    <img src="img/book.png" height="31" width="31" alt="book"/><span>Передплатити</span></a>
             </div>
-        </form>
+        </div>
         <div class="box1">
             <h1>Поштові послуги</h1>
             <p>Замовляйте доставку у найвіддаленіші куточки України, відправляйте й отримуйте посилки з усього світу і навпаки.</p>
@@ -114,7 +116,7 @@
         <h1>Знайти індекс</h1>
         <p>Поштовий індекс — це код із 5 цифр, який допомагає пришвидшити сортування та доставку відправлень. Поштовий індекс мають всі відділення Укрпошти та всі населені пункти України.</p>
         <form>
-            <input type="text" placeholder="Введіть назву населеного пункту">
+            <input type="text" id="trackcode" placeholder="Введіть назву населеного пункту">
             <button type="submit">Знайти</button>
         </form>
     </div>
